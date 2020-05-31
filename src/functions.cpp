@@ -8,7 +8,7 @@
 >>>>>>> New function - min
 
 void print(std::vector<int> const & numbers) {
-    for (int i = 0; i < numbers.size(); ++i) {
+    for (size_t i = 0; i < numbers.size(); ++i) {
         std::cout << i << ": " << numbers[i] << '\n';
     }
     std::cout << '\n';
