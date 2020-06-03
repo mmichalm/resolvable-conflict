@@ -7,10 +7,18 @@ int main() {
     print(numbers);
     sort(numbers);
     print(numbers);
+<<<<<<< HEAD:src/main.cpp
     auto minimum = min(numbers);
     std::cout << "Minimum: " << minimum << '\n';
+=======
+<<<<<<< HEAD
+>>>>>>> vimtutor:main.cpp
     reverse(numbers);
     print(numbers);
+=======
+    auto minimum = min(numbers);
+    std::cout << "Minimum: " << minimum << '\n';
+>>>>>>> New function - min
     
     return 0;
 }

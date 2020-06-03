@@ -1,7 +1,15 @@
 #include "functions.hpp"    // TODO: add proper compilation flag and change to #include "functions.hpp"
 #include <algorithm>
 #include <iostream>
+<<<<<<< HEAD
 #include <limits>
+=======
+<<<<<<< HEAD
+#include <algorithm>
+=======
+#include <limits>
+>>>>>>> New function - min
+>>>>>>> vimtutor
 
 void print(std::vector<int> const & numbers) {
     for (size_t i = 0; i < numbers.size(); ++i) {
@@ -14,6 +22,13 @@ void sort(std::vector<int> & unsorted) {
     std::sort(begin(unsorted), end(unsorted));
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+void reverse(std::vector<int> & data) {
+    std::reverse(begin(data), end(data));
+=======
+>>>>>>> vimtutor
 int min(std::vector<int> const & values) {
     int minimum = std::numeric_limits<int>::max();
     for (const auto & value : values) {
@@ -22,8 +37,12 @@ int min(std::vector<int> const & values) {
         }
     }
     return minimum;
+<<<<<<< HEAD
 }
 void reverse(std::vector<int> & data) {
     std::reverse(begin(data), end(data));
+=======
+>>>>>>> New function - min
+>>>>>>> vimtutor
 }
 
